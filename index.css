@@ -38,6 +38,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin-left: 10px;
   height: 100vh;
   width: 100%;
@@ -47,6 +48,10 @@
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+}
+
+.border_bot{
+  border-bottom: 2px solid #696969;
 }
 
 input {
@@ -66,4 +71,11 @@ input:focus {
 
 img {
   margin-bottom: 100px;
+}
+
+span{
+  font-family: "Staatliches", cursive;
+  color: #6c757d;
+  text-align: center;
+  font-size: 30px;
 }
